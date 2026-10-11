@@ -60,11 +60,24 @@ I build tools that trade, watch markets and remove repetitive work: bots for pre
       <a href="https://lowriskbtc.github.io/docx-desk/"><img alt="Live demo" src="https://img.shields.io/badge/live_demo-open-22d3ee?style=flat-square"></a>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/lowriskbtc/antirugdex">antirugdex</a></h4>
+      Verifiable token launches on Solana: a Token-2022 fee token, an Anchor fair-sale program that seeds a Raydium pool and burns the LP, and an on-chain rug-risk grader. Verified end to end on devnet.<br><br>
+      <a href="https://github.com/lowriskbtc/antirugdex/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/lowriskbtc/antirugdex/actions/workflows/ci.yml/badge.svg"></a>
+    </td>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/lowriskbtc/duck-store">duck-store</a></h4>
+      Flask storefront with Stripe checkout, server-side pricing, buyer-only downloads and a password-protected admin, deployed on Vercel with Postgres.<br><br>
+      <a href="https://duck-store.vercel.app"><img alt="Live site" src="https://img.shields.io/badge/live_site-open-22d3ee?style=flat-square"></a>
+      <a href="https://github.com/lowriskbtc/duck-store/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/lowriskbtc/duck-store/actions/workflows/ci.yml/badge.svg"></a>
+    </td>
+  </tr>
 </table>
 
 ### How the code is checked
 
-- **350+ automated tests** across eight repositories, running on every push with GitHub Actions.
+- **450+ automated tests** across nine repositories, running on every push with GitHub Actions.
 - **Mutation-tested:** each protection was broken on purpose to confirm a test catches it.
 - **Safe by default:** secrets stay out of code, trading defaults to paper mode, and anything ambiguous fails safe.
 
