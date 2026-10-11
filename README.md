@@ -19,7 +19,9 @@
 
 ### About
 
-I build tools that trade, watch markets and remove repetitive work: bots for prediction markets and crypto, token scanners, a payments-ready API and browser automation. The projects below have test suites that run in CI, and the trading code is built paper-first with explicit safety gates.
+I'm an AI engineer. I build production multi-agent LLM systems and real-money trading infrastructure end to end, plus Solana programs in Rust. The projects below are the public side of that work: bots for prediction markets and crypto, token scanners, a payments-ready API and browser automation. They have test suites that run in CI, and the trading code is built paper-first with explicit safety gates.
+
+Open to remote AI/ML and crypto engineering roles. [Resume and contact: aig3nt.com](https://aig3nt.com)
 
 ### Featured projects
 
